@@ -11,15 +11,17 @@ Program to help user solve the N-Puzzle problem. Sample solved 15-Puzzle (size 4
 An initial and a solved 8-Puzzle (size 3) game boards are below.
 ### Initial Board
 
-| 1 | 2 | 3 |
-| --- | --- | --- |
-| 4 | 5 | 6 |
-| 7 | 8 |  |
-### Solved Board
 | 1 | 8 | 2 |
 | --- | --- | --- |
 |   | 4 | 3 |
 | 7 | 6 | 5 |
+
+### Solved Board
+
+| 1 | 2 | 3 |
+| --- | --- | --- |
+| 4 | 5 | 6 |
+| 7 | 8 |  |
 
 ## About the Project
  The program is designed with a Object-Oriented approach and is capable of doing some other stuff like, reading a board from a file, writing to board to a file, making a smart move etc. Full list of functionalities are given below.
