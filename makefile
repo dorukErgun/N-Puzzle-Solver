@@ -1,8 +1,8 @@
 
-171044057 : HW4.o
-	g++ -o 171044057 HW4.o
+prog : n_puzzle_solver.o
+	g++ -o prog n_puzzle_solver.o
 
-HW3.o : HW4.cpp
-	g++ -c -std=c++11 -Wall HW4.cpp
+HW3.o : n_puzzle_solver.cpp
+	g++ -c -std=c++11 -Wall n_puzzle_solver.cpp
 clean:
-	rm *.o 171044057
+	rm *.o prog
